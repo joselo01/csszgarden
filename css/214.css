@@ -1,0 +1,414 @@
+@charset "utf-8";
+/* Jose Mujica*/
+@font-face {
+	font-family: 'helveticaneueltstd-bd';
+	src: url('../fonts/helveticaneueltstd-bd.eot');
+	src: url('../fonts/helveticaneueltstd-bd.eot?#iefix') format('embedded-opentype'),  url('../fonts/helveticaneueltstd-bd.woff') format('woff'),  url('../fonts/helveticaneueltstd-bd.ttf') format('truetype'),  url('../fonts/helveticaneueltstd-bd.svg#webfontregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'helveticaneueltstd-bdcn';
+	src: url('../fonts/helveticaneueltstd-bdcn.eot');
+	src: url('../fonts/helveticaneueltstd-bdcn.eot?#iefix') format('embedded-opentype'),  url('../fonts/helveticaneueltstd-bdcn.woff') format('woff'),  url('../fonts/helveticaneueltstd-bdcn.ttf') format('truetype'),  url('../fonts/helveticaneueltstd-bdcn.svg#webfontregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'helveticaneueltstd-cn';
+	src: url('../fonts/helveticaneueltstd-cn.eot');
+	src: url('../fonts/helveticaneueltstd-cn.eot?#iefix') format('embedded-opentype'),  url('../fonts/helveticaneueltstd-cn.woff') format('woff'),  url('../fonts/helveticaneueltstd-cn.ttf') format('truetype'),  url('../fonts/helveticaneueltstd-cn.svg#webfontregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'helveticaneueltstd-ltcn';
+	src: url('../fonts/helveticaneueltstd-ltcn.eot');
+	src: url('../fonts/helveticaneueltstd-ltcn.eot?#iefix') format('embedded-opentype'),  url('../fonts/helveticaneueltstd-ltcn.woff') format('woff'),  url('../fonts/helveticaneueltstd-ltcn.ttf') format('truetype'),  url('../fonts/helveticaneueltstd-ltcn.svg#webfontregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+body {
+	margin: 0;
+}
+* {
+	outline: 0;
+	outline: none;
+}
+img {
+	border: none;
+}
+header, section, footer, aside, article, figure, nav {
+	display: block;
+}
+[role="button"] {
+ cursor:pointer;
+}
+.intro {
+	background: #d20500 url(../images/cuidad.png) no-repeat center bottom;
+	background-size: 100%;
+	height: 734px;
+	padding: 20px 0;
+}
+header {
+	width: 70%;
+	margin: 0 auto;
+}
+header h1 {
+	text-align: center;
+	font-size: 60px;
+	font-family: 'helveticaneueltstd-cn';
+	color: #FFF;
+	margin: 0 auto;
+	width: 35%;
+	border-top: 7px solid #890600;
+	border-bottom: 7px solid #890600;
+}
+header h2 {
+	text-align: center;
+	font-size: 30px;
+	font-family: 'helveticaneueltstd-cn';
+	color: #FFF;
+	margin: 10px auto;
+}
+.summary {
+	width: 42%;
+	margin: 12% auto;
+	text-align: right;
+}
+.summary p {
+	line-height: 18px;
+	margin: 0;
+	color: #FFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+}
+.summary p a {
+	text-decoration: underline;
+	color: #FFF;
+}
+.main {
+	margin: 0 auto;
+	background: #000;
+}
+.main .caja1 {
+	width: 70%;
+	margin: 0 auto;
+	padding: 40px 0;
+	background: url(../images/star.png) no-repeat center bottom;
+}
+.main .caja1:after {
+	display: table;
+	content: "";
+	clear: both;
+}
+.main .preamble {
+	float: left;
+	width: 40%;
+}
+.main h3 {
+	margin: 0;
+	font-size: 30px;
+	font-family: 'helveticaneueltstd-cn';
+	color: #FFF;
+	padding: 40px 0;
+}
+.main p {
+	margin: 10px 0;
+	font-size: 13px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FFF;
+}
+.main p a {
+	color: #FFF;
+	text-decoration: underline;
+}
+.main .explanation {
+	float: right;
+	width: 40%;
+}
+.main .participation {
+	background: #d20500;
+	padding: 50px 0;
+}
+.main .participation {
+	display: table;
+	content: "";
+	clear: both;
+}
+.main .participation .caja2 {
+	width: 70%;
+	margin: 0 auto;
+}
+.main .participation .caja2:after {
+	display: table;
+	content: "";
+	clear: both;
+}
+.main .participation .caja2 h3 {
+	padding: 0 0 40px 0;
+}
+.main .participation .caja2 .content-caja2 {
+	float: left;
+	width: 75%;
+}
+.main .participation .caja2 .img-caja2 {
+	float: right;
+	display: table;
+	height: 250px;
+}
+.main .participation .caja2 .img-caja2 img {
+	display: table-cell;
+	vertical-align: middle;
+}
+.main .benefits {
+	background: #890600;
+}
+.main .benefits:after {
+	display: table;
+	content: "";
+	clear: both;
+}
+.main .benefits .caja3 {
+	width: 70%;
+	margin: 0 auto;
+	padding: 30px 0;
+}
+.main .benefits .caja3 .img-caja3 {
+	float: left;
+}
+.main .benefits .caja3 .content-caja3 {
+	float: right;
+	padding: 30px 0;
+	width: 70%;
+}
+.main .requirements .caja4 {
+	width: 70%;
+	margin: 0 auto;
+	padding: 30px 0;
+}
+.main .requirements .caja4 .img-caja4 {
+	text-align: center;
+	margin: 40px auto;
+}
+.design-selection {
+	background: #000;
+	text-align: center;
+	color: #FFF;
+	padding-bottom: 50px;
+}
+.design-selection ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.design-selection li {
+	line-height: 50px;
+	border-bottom: 1px solid #FFF;
+	width: 20%;
+	margin: 0 auto;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+}
+.design-selection li a {
+	color: #FFF;
+	text-decoration: none;
+}
+.design-selection h3 {
+	font-family: 'helveticaneueltstd-cn';
+	text-align: center;
+	color: #FFF;
+	font-size: 30px;
+	margin: 0;
+	padding: 40px 0;
+}
+.design-archives {
+	background: #d20500;
+	text-align: center;
+	color: #FFF;
+	padding-bottom: 50px;
+}
+.design-archives ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.design-archives li {
+	line-height: 50px;
+	border-bottom: 1px solid #FFF;
+	width: 20%;
+	margin: 0 auto;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+}
+.design-archives li a {
+	color: #FFF;
+	text-decoration: none;
+}
+.design-archives h3 {
+	font-family: 'helveticaneueltstd-cn';
+	text-align: center;
+	color: #FFF;
+	font-size: 30px;
+	margin: 0;
+	padding: 40px 0;
+}
+.zen-resources {
+	background: #890600;
+	text-align: center;
+	color: #FFF;
+	padding-bottom: 50px;
+}
+.zen-resources ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.zen-resources li {
+	line-height: 50px;
+	border-bottom: 1px solid #FFF;
+	width: 20%;
+	margin: 0 auto;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+}
+.zen-resources li a {
+	color: #FFF;
+	text-decoration: none;
+}
+.zen-resources h3 {
+	font-family: 'helveticaneueltstd-cn';
+	text-align: center;
+	color: #FFF;
+	font-size: 30px;
+	margin: 0;
+	padding: 40px 0;
+}
+footer {
+	padding: 40px 0;
+	text-align: center;
+	font-family: 'helveticaneueltstd-cn';
+	background: #d20500;
+	font-size: 20px;
+}
+footer a {
+	text-decoration: none;
+	color: #FFF;
+	margin: 0 10px;
+}
+ @media only screen and (min-width:768px) and (max-width:980px) {
+header {
+	width: auto;
+	margin: 0 auto;
+}
+.summary {
+	width: 50%;
+	margin: 12% auto;
+	text-align: center;
+}
+.main .explanation {
+	float: none;
+	width: 100%;
+}
+.main .preamble {
+	float: none;
+	width: 100%;
+}
+.main .caja1 {
+	padding: 110px 0;
+}
+.main .participation .caja2 .content-caja2 {
+	float: none;
+	width: 100%;
+}
+.main .participation .caja2 .img-caja2 {
+	float: none;
+	display: table;
+	height: auto;
+	width: auto;
+	margin: 40px auto;
+}
+.main .benefits .caja3 .img-caja3 {
+	float: none;
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+}
+.main .benefits .caja3 .content-caja3 {
+	float: none;
+	margin: 0 auto;
+}
+.main h3 {
+	text-align: center;
+}
+.main p {
+	text-align: center;
+}
+.design-selection li {
+	width: 50%;
+}
+.design-archives li {
+	width: 50%;
+}
+.zen-resources li {
+	width: 50%;
+}
+}
+@media only screen and (max-width:767px) {
+header {
+	width: auto;
+	margin: 0 auto;
+}
+.summary {
+	width: 50%;
+	margin: 12% auto;
+	text-align: center;
+}
+.main .explanation {
+	float: none;
+	width: 100%;
+}
+.main .preamble {
+	float: none;
+	width: 100%;
+}
+.main .caja1 {
+	padding: 110px 0;
+}
+.main .participation .caja2 .content-caja2 {
+	float: none;
+	width: 100%;
+}
+.main .participation .caja2 .img-caja2 {
+	float: none;
+	display: table;
+	height: auto;
+	width: auto;
+	margin: 40px auto;
+}
+.main .benefits .caja3 .img-caja3 {
+	float: none;
+	width: auto;
+	margin: 0 auto;
+	text-align: center;
+}
+.main .benefits .caja3 .content-caja3 {
+	float: none;
+	margin: 0 auto;
+}
+.main h3 {
+	text-align: center;
+}
+.main p {
+	text-align: center;
+}
+.design-selection li {
+	width: 90%;
+}
+.design-archives li {
+	width: 90%;
+}
+.zen-resources li {
+	width: 90%;
+}
+}
